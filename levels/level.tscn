@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw2ibyliffn4s"]
+
+[ext_resource type="Texture2D" uid="uid://glkgrxvv6gaw" path="res://assets/i_dylpickle_i_a_top_down_view_of_a_path_that_travels_through_a__9dfbaab6-e14b-4f5c-acb9-4c7f95e51511.png" id="1_dbgld"]
+[ext_resource type="PackedScene" uid="uid://dmh4buebkawo0" path="res://player/player.tscn" id="2_q6s2p"]
+
+[node name="level" type="Sprite2D"]
+position = Vector2(570, 350)
+scale = Vector2(1.15, 0.7)
+texture = ExtResource("1_dbgld")
+
+[node name="Player" parent="." instance=ExtResource("2_q6s2p")]
